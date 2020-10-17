@@ -1,0 +1,8 @@
+{
+    "name": "PurpleCord",
+    "description": "A Purple Theme for Discord.",
+    "version": "0.0.1",
+    "author": "A Trash Coder#0124",
+    "license": "MIT",
+    "theme": "./PurpleCord.css"
+}

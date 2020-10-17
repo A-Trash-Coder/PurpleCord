@@ -1,0 +1,189 @@
+/*
+PurpleCord. A purple theme for discord!
+
+By https://github.com/A-Trash-Coder
+*/
+
+:root {
+  /* Variables provided by Discord */
+  --background-primary: #230431;
+  --background-secondary-alt: #160021;
+  --background-floating:  #160021;
+  --background-secondary: #1C0028;
+  --background-tertiary: #0D0017;
+  --activity-card-background: #0D0017;
+  --channeltextarea-background: #2D0F3D;
+  --background-message-hover: #1F002D;
+  --background-mentioned: var(--background-secondary-alt);
+  --background-mentioned-hover: var(--background-secondary);
+
+  --purplous-upload-box: #0D0017;
+  --purplous-spoiler-color: rgb(58, 28, 83);
+
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: var(--background-secondary);
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary);
+  --scrollbar-auto-scrollbar-color-thumb: var(--background-tertiary);
+  --scrollbar-auto-scrollbar-color-track: var(--background-secondary);
+}
+
+
+/* Mention / Autofill background */
+.autocomplete-1vrmpx {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Footers */
+.footer-2gL1pp {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Nitro card content */
+.content-1LAB8Z {
+  background-color: var(--background-secondary) !important;
+}
+
+/* User card */
+.footer-1fjuF6, .body-3iLsc4 {
+  background-color: var(--background-secondary) !important;
+}
+
+.headerTop-3C2Zn0 {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Role autocomplete */
+.autocompleteScroller-iInVqR {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.header-2bNvm4 {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Mention Autocomplete */ 
+.selected-1Tbx07 {
+  background-color: var(--background-primary) !important;
+}
+
+/* Server Discovery Page */
+.pageWrapper-1PgVDX {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Server welcome page */
+.main-3auUui {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Set custom status */
+.root-1gCeng {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Manage Member Card */
+.card-FDVird:before {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Create Channel Modal */
+.modal-yWgWj- {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Search bar */
+.container-3ayLPN {
+  background-color: var(--background-secondary) !important;
+}
+
+#search-results {
+  background-color: var(--background-secondary) !important;
+}
+
+.option-96V44q:hover, .option-96V44q::before, .selected-rZcOL-, .selected-rZcOL-::after {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.searchFilter-2ESiM3 {
+  background-color: var(--channeltextarea-background) !important;
+}
+
+/* Settings */
+.userInfoViewing-3djV5v {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.popoutList-T9CKZQ, .countryButton-3xq3Ts {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.formNotice-2_hHWR {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.authedApp-mj2Hmd {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.paymentPane-3bwJ6A, .codeRedemptionRedirect-1wVR4b {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.summaryInfo-2QFKUg, .pageActions-1SVAnA {
+  background-color: var(--background-secondary) !important;
+}
+
+.attendeeCTA-3ZZQWt {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.notDetected-33MY4s, .addGamePopout-2RY8Ju, .css-3vaxre-menu {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.powercord-account {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.powercord-product {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.cardPrimary-1Hv-to {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.item-26Dhrx {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Upload File */
+.uploadModal-2ifh8j, .footer-3mqk7D {
+  background-color: var(--purplous-upload-box) !important;
+}
+
+/* Spoiler */
+.spoilerText-3p6IlD {
+  background-color: var(--purplous-spoiler-color) !important;
+}
+
+/* Friends List */
+.peopleColumn-29fq28 {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Color Picker */
+.colorPickerCustom-2CWBn2 {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Playing Activity */
+.activity-11LB_k {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Side piece of mention */
+.mentioned-xhSam7::before {
+  background-color: var(--background-tertiary) !important;
+}
