@@ -11,13 +11,13 @@ By https://github.com/A-Trash-Coder
   --background-floating:  #160021;
   --background-secondary: #1C0028;
   --background-tertiary: #0D0017;
-  --activity-card-background: #0D0017;
+  --activity-card-background: var(--background-tertiary);
   --channeltextarea-background: #2D0F3D;
   --background-message-hover: #1F002D;
   --background-mentioned: var(--background-secondary-alt);
   --background-mentioned-hover: var(--background-secondary);
+  --background-modifier-selected: var(--background-secondary-alt);
 
-  --purple-cord-upload-box: #0D0017;
   --purple-cord-spoiler-color: rgb(58, 28, 83);
   --purple-cord-normal-purple: purple;
 
@@ -169,7 +169,7 @@ By https://github.com/A-Trash-Coder
 
 /* Upload File */
 .uploadModal-2ifh8j, .footer-3mqk7D {
-  background-color: var(--purple-cord-upload-box) !important;
+  background-color: var(--background-tertiary) !important;
 }
 
 /* Spoiler */
@@ -179,7 +179,7 @@ By https://github.com/A-Trash-Coder
 
 /* Friends List */
 .peopleColumn-29fq28 {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--channeltextarea-background) !important;
 }
 
 /* Color Picker */
@@ -227,34 +227,28 @@ By https://github.com/A-Trash-Coder
   background-color: var(--background-secondary-alt) !important;
 }
 
-/* Style For Channel */
-.unread-3zKkbm {
-  border-radius: 0px;
-  width: 4px;
-  height: 32px;
-  margin-top: -17px;
-  opacity: 20%;
-  background-color: var(--purple-cord-normal-purple);
-}
-
-.content-3at_AU {
-  border-radius: 4px 15px 15px 4px;
-}
-
-.modeSelected-1zApJ_ .children-Bmpf2Q {
-  background-color: var(--channeltextarea-background);
-  height: 30px;
-  padding-left: 6px;
-  padding-right: 10px;
-  margin-right: -8px;
-  border-radius: 4px 15px 15px 0px;
-}
-
-.modeSelected-1zApJ_ .content-3at_AU{
-  border-bottom: var(--channeltextarea-background) 2px solid;
-}
-
 /* Home button */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary);
+}
+
+/* Hover of most */
+.clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
+  background-color: var(--background-secondary);
+}
+
+/* Channel mention for others */
+.wrapper-3WhCwL:hover {
+  background-color: var(--background-secondary-alt) !important;
+  color: #7289da !important;
+}
+
+/* Delete message modal */
+.message-2qRu38 {
+  background-color: var(--channeltextarea-background) !important;
+}
+
+/* Channel Hover */
+.content-3at_AU:hover, .layout-2DM8Md:hover {
+  background-color: var(--channeltextarea-background) !important;
 }
