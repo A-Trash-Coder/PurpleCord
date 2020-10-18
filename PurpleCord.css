@@ -109,6 +109,10 @@ By https://github.com/A-Trash-Coder
   background-color: var(--channeltextarea-background) !important;
 }
 
+.searchOption-zQ-1l6::after {
+  display: none
+}
+
 /* Settings */
 .userInfoViewing-3djV5v {
   background-color: var(--background-secondary-alt) !important;
