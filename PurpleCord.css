@@ -105,7 +105,7 @@ By https://github.com/A-Trash-Coder
   background-color: var(--background-secondary-alt) !important;
 }
 
-.searchFilter-2ESiM3 {
+.searchFilter-2ESiM3, .searchAnswer-3Dz2-q, .queryContainer-RKFJW- {
   background-color: var(--channeltextarea-background) !important;
 }
 
@@ -185,5 +185,15 @@ By https://github.com/A-Trash-Coder
 
 /* Side piece of mention */
 .mentioned-xhSam7::before {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Unread Message Bar */
+.unreadBar-3YD_k9 {
+  background-color: var(--background-primary) !important;
+}
+
+/* Quote Bar */ 
+.blockquoteDivider-2hH8H6 {
   background-color: var(--background-tertiary) !important;
 }
