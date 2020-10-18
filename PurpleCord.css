@@ -17,8 +17,9 @@ By https://github.com/A-Trash-Coder
   --background-mentioned: var(--background-secondary-alt);
   --background-mentioned-hover: var(--background-secondary);
 
-  --purplous-upload-box: #0D0017;
-  --purplous-spoiler-color: rgb(58, 28, 83);
+  --purple-cord-upload-box: #0D0017;
+  --purple-cord-spoiler-color: rgb(58, 28, 83);
+  --purple-cord-normal-purple: purple;
 
   --scrollbar-thin-thumb: var(--background-tertiary);
   --scrollbar-thin-track: var(--background-secondary);
@@ -114,6 +115,10 @@ By https://github.com/A-Trash-Coder
 }
 
 /* Settings */
+.colorGrey-2DXtkV {
+  background-color: var(--background-secondary-alt) !important;
+}
+
 .userInfoViewing-3djV5v {
   background-color: var(--background-secondary-alt) !important;
 }
@@ -164,12 +169,12 @@ By https://github.com/A-Trash-Coder
 
 /* Upload File */
 .uploadModal-2ifh8j, .footer-3mqk7D {
-  background-color: var(--purplous-upload-box) !important;
+  background-color: var(--purple-cord-upload-box) !important;
 }
 
 /* Spoiler */
 .spoilerText-3p6IlD {
-  background-color: var(--purplous-spoiler-color) !important;
+  background-color: var(--purple-cord-spoiler-color) !important;
 }
 
 /* Friends List */
@@ -200,4 +205,56 @@ By https://github.com/A-Trash-Coder
 /* Quote Bar */ 
 .blockquoteDivider-2hH8H6 {
   background-color: var(--background-tertiary) !important;
+}
+
+/* Back to present */
+.jumpToPresentBar-G1R9s6 {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Gif/Sticker/Emoji Button */ 
+.navButton-2gQCx- {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Careful! Unsaved Changes */ 
+.container-2VW0UT {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Activity card on home page */
+.section-2gLsgF {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Style For Channel */
+.unread-3zKkbm {
+  border-radius: 0px;
+  width: 4px;
+  height: 32px;
+  margin-top: -17px;
+  opacity: 20%;
+  background-color: var(--purple-cord-normal-purple);
+}
+
+.content-3at_AU {
+  border-radius: 4px 15px 15px 4px;
+}
+
+.modeSelected-1zApJ_ .children-Bmpf2Q {
+  background-color: var(--channeltextarea-background);
+  height: 30px;
+  padding-left: 6px;
+  padding-right: 10px;
+  margin-right: -8px;
+  border-radius: 4px 15px 15px 0px;
+}
+
+.modeSelected-1zApJ_ .content-3at_AU{
+  border-bottom: var(--channeltextarea-background) 2px solid;
+}
+
+/* Home button */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--background-secondary-alt);
 }
