@@ -179,7 +179,7 @@ By https://github.com/A-Trash-Coder
 
 /* Friends List */
 .peopleColumn-29fq28 {
-  background-color: var(--channeltextarea-background) !important;
+  background-color: var(--background-primary) !important;
 }
 
 /* Color Picker */
@@ -190,6 +190,14 @@ By https://github.com/A-Trash-Coder
 /* Playing Activity */
 .activity-11LB_k {
   background-color: var(--background-secondary) !important;
+}
+
+.topSectionPlaying-1J5E4n {
+  background-color: var(--background-secondary) !important;
+}
+
+.header-QKLPzZ, .activity-1ythUs {
+  background-color: var(--background-tertiary) !important;
 }
 
 /* Side piece of mention */
