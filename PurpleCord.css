@@ -145,27 +145,27 @@ By https://github.com/A-Trash-Coder
 
 /* Settings */
 .colorGrey-2DXtkV {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .userInfoViewing-3djV5v {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .popoutList-T9CKZQ, .countryButton-3xq3Ts {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .formNotice-2_hHWR {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .authedApp-mj2Hmd {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .paymentPane-3bwJ6A, .codeRedemptionRedirect-1wVR4b {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .summaryInfo-2QFKUg, .pageActions-1SVAnA {
@@ -173,27 +173,28 @@ By https://github.com/A-Trash-Coder
 }
 
 .attendeeCTA-3ZZQWt {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .notDetected-33MY4s, .addGamePopout-2RY8Ju, .css-3vaxre-menu {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .powercord-account {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .powercord-product {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .cardPrimary-1Hv-to {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
 }
 
 .item-26Dhrx {
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
+  border-color: var(--background-tertiary) !important;
 }
 
 /* Upload File */
@@ -285,8 +286,8 @@ By https://github.com/A-Trash-Coder
   background-color: var(--channeltextarea-background) !important;
 }
 
-/* Channel Hover */
-.content-3at_AU:hover, .layout-2DM8Md:hover {
+/* Item Hovers */
+.content-3at_AU:focus, .layout-2DM8Md:focus, .categoryItem-3zFJns:focus, .container-2Pjhx-:focus {
   background-color: var(--channeltextarea-background) !important;
 }
 
@@ -301,12 +302,34 @@ By https://github.com/A-Trash-Coder
   backdrop-filter: blur(1.5px);
   text-shadow: #000 1px 0 5px;
 }
+
 .tooltipPointer-3ZfirK {
   border-top-color: var(--background-tertiary) !important;
 }
+
 .tooltipContent-bqVLWK > .colorMuted-HdFt4q {
   color: #F04747;
 }
+
 .tooltipContent-bqVLWK > .row-2OVM4t > svg > path {
   fill: #43B581;
+}
+
+/* Video Preview Box */
+.previewOverlayInner-1WXURq {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Switch Toggles */
+.container-3auIfb:not([style*="125"]){
+  background-color: var(--background-tertiary) !important;
+}
+
+.container-3auIfb {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Checkbox */
+.checked-3_4uQ9 {
+  background-color: var(--background-secondary) !important;
 }
