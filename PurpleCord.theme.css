@@ -1,10 +1,10 @@
-/*
-PurpleCord. A purple theme for discord!
+/**
+ * @name PurpleCord
+ * @version 1.0.0
+ * @description A Purple Discord Theme
+ */
 
-By https://github.com/A-Trash-Coder
-*/
-
-:root {
+ :root {
   /* Variables provided by Discord */
   --background-primary: #230431;
   --background-secondary-alt: #160021;
@@ -19,7 +19,6 @@ By https://github.com/A-Trash-Coder
   --background-modifier-selected: var(--background-secondary-alt);
 
   --purple-cord-spoiler-color: rgb(58, 28, 83);
-  --purple-cord-normal-purple: purple;
 
   --scrollbar-thin-thumb: var(--background-tertiary);
   --scrollbar-thin-track: var(--background-secondary);
@@ -144,6 +143,19 @@ By https://github.com/A-Trash-Coder
 }
 
 /* Settings */
+.selected-mKYnfr {
+  background-color: var(--purple-cord-spoiler-color) !important;
+  border-color: var(--purple-cord-spoiler-color) !important;
+}
+
+.wrapper-3jrx9n {
+  border-color: var(--purple-cord-spoiler-color) !important;
+}
+
+.barFill-23-gu- {
+  background-color: var(--purple-cord-spoiler-color) !important;
+}
+
 .colorGrey-2DXtkV {
   background-color: var(--background-secondary) !important;
 }
@@ -332,4 +344,15 @@ By https://github.com/A-Trash-Coder
 /* Checkbox */
 .checked-3_4uQ9 {
   background-color: var(--background-secondary) !important;
+}
+
+/* Blurple Button */
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--purple-cord-spoiler-color) !important;
+}
+
+/* Input selected */
+.cardPrimaryEditable-3KtE4g {
+  background-color: var(--purple-cord-spoiler-color) !important;
+  border-color: var(--purple-cord-spoiler-color) !important;
 }
