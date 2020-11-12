@@ -1,3 +1,5 @@
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+
 /**
  * @name PurpleCord
  * @version 1.0.0
@@ -355,4 +357,23 @@
 .cardPrimaryEditable-3KtE4g {
   background-color: var(--purple-cord-spoiler-color) !important;
   border-color: var(--purple-cord-spoiler-color) !important;
+}
+
+/* Watermark */
+.wordmark-2iDDfm:after {
+    content: "PurpleCord";
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: "Discord";
+}
+
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+.wordmark-2iDDfm {
+    max-width: 90vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
